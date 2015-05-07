@@ -59,6 +59,9 @@ class SphinxSearch {
     return $this;
   }
 
+/**
+ * Originally this didn't send the ranking expression, which caused a problem 
+ */
   public function setRankingMode($mode, $rank='')
   {
     $this->_connection->setRankingMode($mode, $rank);
