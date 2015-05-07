@@ -1,6 +1,6 @@
 {
-  "name": "scalia/sphinxsearch",
-  "description": "Laravel package to query Sphinxsearch",
+  "name": "lostcause/sphinxsearch",
+  "description": "Laravel package to query Sphinxsearch modified to fit our needs.",
   "keywords": [
     "sphinx",
     "sphinxsearch",
