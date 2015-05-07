@@ -5,7 +5,7 @@ Sphinx Search is a package for Laravel 4 which queries Sphinxsearch and integrat
 ## NOTE!
 
 I only forked this to make some changes to the original package which needed to be made.
-Especially, in Scalia/SphinxSearch/SphinxSearch.php:
+Especially, in `Scalia/SphinxSearch/SphinxSearch.php`:
 ```php
 public function setRankingMode($mode,$rank='')
   {
